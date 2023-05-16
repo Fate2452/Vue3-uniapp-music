@@ -1,0 +1,173 @@
+
+.detail-play.data-v-3e159eb4 {
+    width: 580rpx;
+    height: 580rpx;
+    background-size: cover;
+    margin: 214rpx auto 0 auto;
+    position: relative;
+}
+.detail-play image.data-v-3e159eb4 {
+    width: 370rpx;
+    height: 370rpx;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: 10s linear move-3e159eb4 infinite;
+    animation-play-state: paused;
+}
+.detail-play .detail-play-run.data-v-3e159eb4 {
+    animation-play-state: running;
+}
+@keyframes move-3e159eb4 {
+from {
+      transform: rotate(0deg);
+}
+to {
+      transform: rotate(360deg);
+}
+}
+.detail-play text.data-v-3e159eb4 {
+    width: 100rpx;
+    height: 100rpx;
+    font-size: 100rpx;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.detail-play view.data-v-3e159eb4 {
+    width: 230rpx;
+    height: 360rpx;
+    position: absolute;
+    left: 100rpx;
+    top: -200rpx;
+    right: 0;
+    background-size: cover;
+    margin: auto;
+}
+.detail-lyric.data-v-3e159eb4 {
+    height: 246rpx;
+    font-size: 32rpx;
+    line-height: 82rpx;
+    height: 246rpx;
+    text-align: center;
+    color: #919193;
+    overflow: hidden;
+}
+.detail-lyric-wrap.data-v-3e159eb4 {
+    transition: .5s;
+}
+.detail-lyric-item.data-v-3e159eb4 {
+    height: 82rpx;
+}
+.detail-lyric-item.active.data-v-3e159eb4 {
+    color: white;
+}
+.detail-like.data-v-3e159eb4 {
+    margin: 0 30rpx;
+}
+.detail-like-head.data-v-3e159eb4 {
+    font-size: 36rpx;
+    color: white;
+    margin: 50rpx 0;
+}
+.detail-like-item.data-v-3e159eb4 {
+    display: flex;
+    margin-bottom: 28rpx;
+}
+.detail-like-img.data-v-3e159eb4 {
+    width: 82rpx;
+    height: 82rpx;
+    border-radius: 22rpx;
+    overflow: hidden;
+    margin-right: 20rpx;
+}
+.detail-like-img image.data-v-3e159eb4 {
+    width: 100%;
+    height: 100%;
+}
+.detail-like-song.data-v-3e159eb4 {
+    flex: 1;
+    color: white;
+}
+.detail-like-song view.data-v-3e159eb4:nth-child(1) {
+    font-size: 28rpx;
+    color: white;
+    margin-bottom: 12rpx;
+    max-width: 450rpx;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.detail-like-song view.data-v-3e159eb4:nth-child(2) {
+    font-size: 22rpx;
+
+    max-width: 450rpx;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.detail-like-song image.data-v-3e159eb4 {
+    width: 26rpx;
+    height: 20rpx;
+    margin-right: 10rpx;
+}
+.detail-like-song text.data-v-3e159eb4 {
+    font-size: 50rpx;
+    color: white;
+}
+.detail-comment.data-v-3e159eb4 {
+    margin: 0 30rpx;
+}
+.detail-comment-head.data-v-3e159eb4 {
+    font-size: 36rpx;
+    color: white;
+    margin: 50rpx 0;
+}
+.detail-comment-item.data-v-3e159eb4 {
+    margin-bottom: 28rpx;
+    display: flex;
+}
+.detail-comment-img.data-v-3e159eb4 {
+    width: 64rpx;
+    height: 64rpx;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 18rpx;
+}
+.detail-comment-img image.data-v-3e159eb4 {
+    width: 100%;
+    height: 100%;
+}
+.detail-comment-content.data-v-3e159eb4 {
+    flex: 1;
+}
+.detail-comment-title.data-v-3e159eb4 {
+    display: flex;
+    justify-content: space-between;
+}
+.detail-comment-name.data-v-3e159eb4 {}
+.detail-comment-name view.data-v-3e159eb4:nth-child(1) {
+    font-size: 26rpx;
+}
+.detail-comment-name view.data-v-3e159eb4:nth-child(2) {
+    font-size: 20rpx;
+}
+.detail-comment-like.data-v-3e159eb4 {
+    font-size: 28rpx;
+}
+.detail-comment-text.data-v-3e159eb4 {
+    font-size: 28rpx;
+    line-height: 40rpx;
+    color: white;
+    margin-top: 20rpx;
+    border-bottom: 1px #2d2d2e solid;
+    padding-bottom: 40rpx;
+}

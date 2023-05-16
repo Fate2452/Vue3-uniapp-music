@@ -1,0 +1,15 @@
+{
+    "id": "heaven-skeleton",
+    "name": "heaven-skeleton 骨架图",
+    "version": "0.1.0",
+    "description": "uni-app 骨架屏组件",
+    "keywords": [
+        "skeleton"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}
